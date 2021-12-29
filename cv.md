@@ -1,5 +1,7 @@
 # Viyaleta Haponava
 ******
+### Junior  developer
+![photo](C:\Users\37529\Desktop\DCIM\DSC_3.jpg)
 
 #### Contact information
 *****
@@ -8,7 +10,7 @@
 * GitHub: [ViyaletaH](https://github.com/ViyaletaH)
 
 
-##### About me
+##### About Me
 *****
 I am a 23 years old junior developer looking for the best ways to use my knowledges  and get the experience, i desire.
 The ambitiousness and the sense of purpose are caused by the maximalism, corresponding to my age. 
@@ -20,12 +22,17 @@ I have worked as a brand manager for two years before i decided to change my lif
 *****
 * CSS
 * HTML
-* JS (basic)
-* Git
+* JavaScript (basic)
+* Git, GitHub
 
 
 #### Code examples
 *******
+```
+function multiply($a, $b){
+ return ($a * $b);
+}
+```
 
 
 #### Experience
@@ -34,11 +41,11 @@ I have worked as a brand manager for two years before i decided to change my lif
 
 #### Education
 ******
-**University:** Minsk linguistic state university
-**Specialisation:** Organization of socio-cultural activities with knowledge of foreign languages
+* **University:** Minsk linguistic state university
++ *Specialisation:* Organization of socio-cultural activities with knowledge of foreign languages
 
-**University:** Gdansk School of Banking
-**Specialisation:** Forensics
+* **University:** Gdansk School of Banking
++ *Specialisation:* Forensics
 
 
 #### Languages
