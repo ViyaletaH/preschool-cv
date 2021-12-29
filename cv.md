@@ -1,7 +1,7 @@
 # Viyaleta Haponava
 ******
 ### Junior  developer
-![photo](C:/Users/37529/Desktop/DCIM/DSC_3.jpg)
+![photo](C:\Users\37529\rsschool-cv\DSC_3.jpg)
 
 #### Contact information
 *****
