@@ -1,7 +1,7 @@
 # Viyaleta Haponava
 ******
 ### Junior  developer
-![photo](https://media-exp1.licdn.com/dms/image/C4D03AQFMMTSx2yKLyg/profile-displayphoto-shrink_800_800/0/1637931684073?e=1646265600&v=beta&t=ApSCXNfDLMWH9uJAYaq168X1QrqkksPqC4KLxE692AA)
+
 
 #### Contact information
 *****
