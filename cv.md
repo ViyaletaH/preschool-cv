@@ -1,7 +1,7 @@
 # Viyaleta Haponava
 ******
 ### Junior  developer
-![photo](C:\Users\37529\Desktop\DCIM\DSC_3.jpg)
+![photo](C:/Users/37529/Desktop/DCIM/DSC_3.jpg)
 
 #### Contact information
 *****
@@ -42,14 +42,14 @@ function multiply($a, $b){
 #### Education
 ******
 * **University:** Minsk linguistic state university
-+ *Specialisation:* Organization of socio-cultural activities with knowledge of foreign languages
+    + *Specialisation:* Organization of socio-cultural activities with knowledge of foreign languages
 
 * **University:** Gdansk School of Banking
-+ *Specialisation:* Forensics
+    + *Specialisation:* Forensics
 
 
 #### Languages
 ******
-**Russian**-native speaker
-**Polish**-B2
-**English**-B1
+* **Russian**-native speaker
+* **Polish**-B2
+* **English**-B1
