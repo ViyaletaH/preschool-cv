@@ -1,1 +1,42 @@
-hello world
+.parent {
+    border: 1px solid #8735;
+    margin: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    height: 510px;
+    background-color: rgba(224, 224, 226, 0.63);
+    }
+
+.son {
+    border: 1px solid rgba(18, 18, 126, 0.63);
+    align-self: stretch;
+}
+.daughter {
+    Border: 1px solid rgba(224, 11, 11, 0.6);
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(218, 153, 32);
+    align-self: stretch;
+    padding-left: 35px;
+    flex-grow: 1;
+}
+
+.child1 {
+    border: 1px solid red;
+}
+
+.child2 {
+    border: 1px solid palevioletred;
+    align-self: flex-end;
+}
+
+.child3 {
+    border: 1px solid violet;
+    align-self: flex-end;
+    margin: 70px 0px 0px 0px;
+        
+    }
+
+    
