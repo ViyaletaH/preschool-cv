@@ -163,6 +163,7 @@
     .edu {
         border: 1px solid violet;
         background-color: rgba(224, 224, 226, 0.63);
+        flex-grow: 1;
         margin: 0px 40px 0px 40px;
         color: rgb(48, 47, 46);
         font-family: Arial, Helvetica, sans-serif;
@@ -223,4 +224,58 @@
             font-family: Arial, Helvetica, sans-serif;
             color: rgb(255, 255, 255);
             padding: 0px 0px 0px 20px;}
+    .auntMay {
+        border: 1px solid #8735;
+        margin: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(224, 224, 226, 0.63);
+    }
+    .Peter {border: 1px solid violet;
+        max-width: 500px; 
+        min-width: 500px; 
+        background-color: rgb(218, 153, 32);}
+    .Tony {
+        border: 1px solid violet;
+        background-color: rgba(224, 224, 226, 0.63);
+        margin: 0px 40px 0px 40px;
+        color: rgb(48, 47, 46);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        text-align: justify;
+    }
+    .iron {
+        font-size: 42px;
+        font-weight: 400;
+        font-variant: small-caps;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(218, 153, 32);
+    }
+    .spider {align-content: flex-start;
+        margin: 40px 0px 20px 0px;
+        font-size: 42px;
+        font-weight: 400;
+        font-variant: small-caps;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0px 0px 0px 40px;
+        color: rgb(48, 47, 46);
+        border: 1px solid red;}
+
+        .code {
+            border: 1px solid rgba(18, 18, 126, 0.63);
+            flex-direction: row;
+            justify-content: flex-start;
+            font-size: 23px;
+            font-weight: 300;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            padding: 0px 40px 0px 40px;
+        }
+    .itself {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color:rgb(48, 47, 46)
+    
+        }
 
