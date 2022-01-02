@@ -35,8 +35,113 @@
 .child3 {
     border: 1px solid violet;
     align-self: flex-end;
-    margin: 70px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
         
     }
 
+    .mother  {
+        border: 1px solid #8735;
+        margin: 0px 20px 0px 20px;
+        display: flex;
+        flex-direction: row;
+        background-color: rgba(224, 224, 226, 0.63);
+        }
     
+        .baby { border: 1px solid violet;
+            min-width: 500px;  
+            background-color: rgb(218, 153, 32);
+              
+        }
+        .child4 { 
+    align-content: flex-start;
+    margin: 40px 0px 20px 0px;
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 40px;
+    color: rgb(48, 47, 46);
+        }
+
+        .child5 {
+    border: 1px solid rgba(18, 18, 126, 0.63);
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 20px;
+      }
+        
+        .child6 {border: 1px solid rgba(18, 18, 126, 0.63);
+            flex-direction: row;
+            justify-content: flex-start;
+            font-size: 23px;
+            font-weight: 300;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px 0px 0px 20px;}
+
+        .child7 {border: 1px solid rgba(18, 18, 126, 0.63);
+            flex-direction: row;
+            justify-content: flex-start;
+            font-size: 23px;
+            font-weight: 300;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px 0px 0px 20px;}
+    
+        .orphan {
+            border: 1px solid violet;
+            flex-grow: 1;  
+            background-color: rgba(224, 224, 226, 0.63);
+            margin: 0px 40px 0px 40px;
+            color: rgb(48, 47, 46);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 23px;
+            text-align: justify;
+
+            
+        }
+        .text1 {
+            border: 1px solid rgba(18, 18, 126, 0.63);
+           max-width: 250px;
+           margin: 0px 0px 15px 20px;
+           padding: 0px 0px 0px 40px;
+           color: rgb(255, 255, 255);
+        }
+        .img1 {
+            max-width: 50px;
+            border: 1px solid rgba(224, 11, 11, 0.6);
+            float:left; 
+            padding: 0px 0px 0px 20px;
+
+        }
+
+        .text2 {
+            border: 1px solid rgba(18, 18, 126, 0.63);
+           max-width: 500px;
+           margin: 0px 0px 15px 20px;
+           padding: 0px 0px 0px 40px;
+           color: rgb(255, 255, 255);
+        }
+        .img2 {
+            max-width: 50px;
+            border: 1px solid rgba(224, 11, 11, 0.6);
+            float:left; 
+            padding: 0px 0px 0px 20px;
+
+        }
+
+        .text3 {
+            border: 1px solid rgba(18, 18, 126, 0.63);
+           max-width: 250px;
+           margin: 0px 0px 15px 20px;
+           padding: 0px 0px 0px 40px;
+           color: rgb(255, 255, 255);
+        }
+        .img3 {
+            max-width: 50px;
+            border: 1px solid rgba(224, 11, 11, 0.6);
+            float:left; 
+            padding: 0px 0px 0px 20px;
+
+        }
