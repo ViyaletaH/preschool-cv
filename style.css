@@ -280,12 +280,14 @@
         }
 
 .main {
-    margin: auto;
+    margin: 50px 100px 50px 100px;
+    background-color: rgba(224, 224, 226, 0.63);
+    box-shadow: 15px 15px 12px 15px rgba(0,0,0,0.2);
 }
 
 .footer {
     border: 1px solid #8735;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 20px 20px;
     display: flex;
     flex-direction: row;
     background-color: rgba(224, 224, 226, 0.63);
