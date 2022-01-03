@@ -308,6 +308,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     text-align: justify;
+    align-items: flex-end;
 }
 
 .top1 {
@@ -318,10 +319,9 @@
 }
 
 .top2 {
-    min-height: 200px;
+    min-height: 245px;
     min-width: 500px;
-    max-width: 500px;
-
+    
 }
 .bottom1 {
     
@@ -336,9 +336,16 @@
 }
 
 .bottom2 {
-    
+    justify-content: space-between;
     align-items: flex-end;
     border: 1px solid red;
+    align-self: flex-end;
+}
+
+.button {
+    position: fixed;
+    bottom: 50px;
+    right: 70px;
 }
 
 
