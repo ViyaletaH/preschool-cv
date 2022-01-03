@@ -1,15 +1,22 @@
-.parent {
+.all {
+    margin: 50px 100px 50px 100px;
+    background-color: rgba(224, 224, 226, 0.63);
+    box-shadow: 15px 15px 12px 15px rgba(0,0,0,0.2);
+}
+
+.header {
     margin: 20px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     height: 510px;
     background-color: rgba(224, 224, 226, 0.63);
-    }
+}
 
-.son {
+.photo {
     align-self: stretch;
 }
-.daughter {
+
+.info {
     font-size: 42px;
     font-weight: 400;
     font-variant: small-caps;
@@ -20,26 +27,27 @@
     flex-grow: 1;
 }
 
-.child2 {
+.profession {
     align-self: flex-end;
 }
 
-.child3 {
+.why_me {
     align-self: flex-end;
-    margin: 170px 0px 0px 0px;
+    margin: 190px 0px 0px 0px;
 }
 
-    .mother  {
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(224, 224, 226, 0.63);
-        }
+.about  {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(224, 224, 226, 0.63);
+}
     
-        .baby { 
-            min-width: 500px;  
-            background-color: #DA9920;
-        }
-        .child4 { 
+.contact { 
+    min-width: 500px;  
+    background-color: #DA9920;
+}
+
+.contact_title { 
     align-content: flex-start;
     margin: 40px 0px 20px 0px;
     font-size: 42px;
@@ -48,121 +56,126 @@
     font-family: 'Times New Roman', Times, serif;
     padding: 0px 0px 0px 40px;
     color: #302F2E;
-        }
+}
 
-        .child5 {
+.phone {
     flex-direction: row;
     justify-content: flex-start;
     font-size: 23px;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 0px 0px 20px;
-      }
-        
-        .child6 {
-            flex-direction: row;
-            justify-content: flex-start;
-            font-size: 23px;
-            font-weight: 300;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 0px 0px 0px 20px;}
+}
 
-        .child7 {
-            flex-direction: row;
-            justify-content: flex-start;
-            font-size: 23px;
-            font-weight: 300;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 0px 0px 0px 20px;}
-    
-        .orphan {
-            flex-grow: 1;  
-            background-color: rgba(224, 224, 226, 0.63);
-            margin: 0px 40px 0px 40px;
-            color: #302F2E;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 23px;
-            text-align: justify;
+.img1 {
+    max-width: 50px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
 
-            
-        }
-        .text1 {
-           max-width: 250px;
-           margin: 0px 0px 15px 20px;
-           padding: 0px 0px 0px 40px;
-           color: #FFFFFF;
-        }
-        .img1 {
-            max-width: 50px;
-            float: left; 
-            padding: 0px 0px 0px 20px;
+.text1 {
+    max-width: 250px;
+    margin: 0px 0px 15px 20px;
+    padding: 0px 0px 0px 40px;
+    color: #FFFFFF;
+}
 
-        }
+.mail {
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 20px;
+}
 
-        .text2 {
-           max-width: 500px;
-           margin: 0px 0px 15px 20px;
-           padding: 0px 0px 0px 40px;
-           color: #FFFFFF;
-        }
-        .img2 {
-            max-width: 50px;
-            float:left; 
-            padding: 0px 0px 0px 20px;
+.img2 {
+    max-width: 50px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
 
-        }
+.text2 {
+    max-width: 500px;
+    margin: 0px 0px 15px 20px;
+    padding: 0px 0px 0px 40px;
+    color: #FFFFFF;
+}
+.git {
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 0px 20px;
+}
 
-        .text3 {
-           max-width: 250px;
-           margin: 0px 0px 15px 20px;
-           padding: 0px 0px 0px 40px;
-           color: #FFFFFF;
-        }
-        .img3 {
-            max-width: 50px;
-            float: left; 
-            padding: 0px 0px 0px 20px;
+.img3 {
+    max-width: 50px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
 
-        }
-        .father  {
+.text3 {
+    max-width: 250px;
+    margin: 0px 0px 15px 20px;
+    padding: 0px 0px 0px 40px;
+    color: #FFFFFF;
+}
+
+.self_description {
+    flex-grow: 1;  
+    background-color: rgba(224, 224, 226, 0.63);
+    margin: 0px 40px 0px 40px;
+    color: #302F2E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: justify;
+}
+
+
+.knowledges  {
     display: flex;
     flex-direction: row;
     height: 510px;
     background-color: rgba(224, 224, 226, 0.63);
-    }
-    .skills {
-        min-width: 500px;  
-        background-color: #DA9920;
-            }
-   
+}
 
-    .edu {
-        background-color: rgba(224, 224, 226, 0.63);
-        flex-grow: 1;
-        margin: 0px 40px 0px 40px;
-        color: #302F2E;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        text-align: justify;
-    }
-    .child9 {
+.skills {
+    min-width: 500px;  
+    background-color: #DA9920;
+}
+
+.edu {
+    background-color: rgba(224, 224, 226, 0.63);
+    flex-grow: 1;
+    margin: 0px 40px 0px 40px;
+    color: #302F2E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.edu_title {
     font-size: 42px;
     font-weight: 400;
     font-variant: small-caps;
     font-family: 'Times New Roman', Times, serif;
     color: #DA9920;
-    }
-    .child8 {
-        align-content: flex-start;
-        margin: 40px 0px 20px 0px;
-        font-size: 42px;
-        font-weight: 400;
-        font-variant: small-caps;
-        font-family: 'Times New Roman', Times, serif;
-        padding: 0px 0px 0px 40px;
-        color: #302F2E;
-    }
-    .stepson {
+}
+
+.skills_title {
+    align-content: flex-start;
+    margin: 40px 0px 20px 0px;
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 40px;
+    color: #302F2E;
+}
+
+.skills_list {
     flex-direction: row;
     justify-content: flex-start;
     font-size: 23px;
@@ -170,92 +183,95 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     padding: 0px 0px 0px 20px;
-    }
+}
 
-    .child10 {
-        font-size: 42px;
-        font-weight: 400;
-        font-variant: small-caps;
-        font-family: 'Times New Roman', Times, serif;
-        color: #DA9920;
-        }
+.courses_title {
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DA9920;
+}
 
-        .lang {
-            align-content: flex-start;
-            margin: 40px 0px 20px 0px;
-            font-size: 42px;
-            font-weight: 400;
-            font-variant: small-caps;
-            font-family: 'Times New Roman', Times, serif;
-            padding: 0px 0px 0px 20px;
-            color: #302F2E;
-        }
+.lang_title {
+    align-content: flex-start;
+    margin: 40px 0px 20px 0px;
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 20px;
+    color: #302F2E;
+}
 
-        .step2 {
-            flex-direction: row;
-            justify-content: flex-start;
-            font-size: 23px;
-            font-weight: 300;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #FFFFFF;
-            padding: 0px 0px 0px 20px;}
+.lang {
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding: 0px 0px 0px 20px;
+}
 
-    .auntmay {
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(224, 224, 226, 0.63);
-    }
-    .peter {
-        max-width: 500px; 
-        min-width: 500px; 
-        background-color: #DA9920;}
-    .tony {
-        background-color: rgba(224, 224, 226, 0.63);
-        margin: 40px 40px 0px 40px;
-        color: #302F2E;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
-        text-align: justify;
-    }
-    .iron {
-        font-size: 42px;
-        font-weight: 400;
-        font-variant: small-caps;
-        font-family: 'Times New Roman', Times, serif;
-        color: #DA9920;
-    }
-    .spider {align-content: flex-start;
-        margin: 40px 0px 20px 0px;
-        font-size: 42px;
-        font-weight: 400;
-        font-variant: small-caps;
-        font-family: 'Times New Roman', Times, serif;
-        padding: 0px 0px 0px 40px;
-        color: #302F2E;
-    }
+.example_experience {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(224, 224, 226, 0.63);
+}
 
-        .code {
-            flex-direction: row;
-            justify-content: flex-start;
-            font-size: 23px;
-            font-weight: 300;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #FFFFFF;
-            padding: 0px 40px 0px 40px;
-        }
+.code {
+    max-width: 500px; 
+    min-width: 500px; 
+    background-color: #DA9920;
+}
+    
+.experience {
+    background-color: rgba(224, 224, 226, 0.63);
+    margin: 40px 40px 0px 40px;
+    color: #302F2E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: justify;
+}
 
-    .itself {
+.experience_title {
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DA9920;
+}
+
+.code_title {
+    align-content: flex-start;
+    margin: 40px 0px 20px 0px;
+    font-size: 42px;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 0px 0px 40px;
+    color: #302F2E;
+}
+
+.code_task {
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 23px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding: 0px 40px 0px 40px;
+}
+
+.code_itself {
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
     color:#302F2E;
-    }
-
-.main {
-    margin: 50px 100px 50px 100px;
-    background-color: rgba(224, 224, 226, 0.63);
-    box-shadow: 15px 15px 12px 15px rgba(0,0,0,0.2);
 }
+
+
 
 .footer {
     margin: 0px 0px 20px 0px;
@@ -280,19 +296,19 @@
     align-items: flex-end;
 }
 
-.top1 {
+.top_left {
     min-height: 200px;
     min-width: 500px;
     max-width: 500px;
 
 }
 
-.top2 {
+.top_right {
     min-height: 245px;
     min-width: 500px;
     
 }
-.bottom1 {
+.bottom_left {
     
     padding: 0px 40px 0px 40px;
     justify-content: space-between;
@@ -303,16 +319,16 @@
     font-size: 18px;
 }
 
-.bottom2 {
+.bottom_right {
     justify-content: space-between;
     align-items: flex-end;
     align-self: flex-end;
 }
 
 .button {
-    position: fixed;
-    bottom: 50px;
-    right: 70px;
+position: fixed;
+bottom: 50px;
+right: 70px;
 }
 
 
