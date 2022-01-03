@@ -1,6 +1,5 @@
 .parent {
-    border: 1px solid #8735;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     height: 510px;
@@ -8,49 +7,38 @@
     }
 
 .son {
-    border: 1px solid rgba(18, 18, 126, 0.63);
     align-self: stretch;
 }
 .daughter {
-    Border: 1px solid rgba(224, 11, 11, 0.6);
     font-size: 42px;
     font-weight: 400;
     font-variant: small-caps;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(218, 153, 32);
+    color: #DA9920;
     align-self: stretch;
     padding-left: 35px;
     flex-grow: 1;
 }
 
-.child1 {
-    border: 1px solid red;
-}
-
 .child2 {
-    border: 1px solid palevioletred;
     align-self: flex-end;
 }
 
 .child3 {
-    border: 1px solid violet;
     align-self: flex-end;
-    margin: 50px 0px 0px 0px;
+    margin: 170px 0px 0px 0px;
         
     }
 
     .mother  {
-        border: 1px solid #8735;
-        margin: 0px 20px 0px 20px;
         display: flex;
         flex-direction: row;
         background-color: rgba(224, 224, 226, 0.63);
         }
     
-        .baby { border: 1px solid violet;
+        .baby { 
             min-width: 500px;  
-            background-color: rgb(218, 153, 32);
-              
+            background-color: #DA9920;
         }
         .child4 { 
     align-content: flex-start;
@@ -60,11 +48,10 @@
     font-variant: small-caps;
     font-family: 'Times New Roman', Times, serif;
     padding: 0px 0px 0px 40px;
-    color: rgb(48, 47, 46);
+    color: #302F2E;
         }
 
         .child5 {
-    border: 1px solid rgba(18, 18, 126, 0.63);
     flex-direction: row;
     justify-content: flex-start;
     font-size: 23px;
@@ -73,7 +60,7 @@
     padding: 0px 0px 0px 20px;
       }
         
-        .child6 {border: 1px solid rgba(18, 18, 126, 0.63);
+        .child6 {
             flex-direction: row;
             justify-content: flex-start;
             font-size: 23px;
@@ -81,7 +68,7 @@
             font-family: Arial, Helvetica, sans-serif;
             padding: 0px 0px 0px 20px;}
 
-        .child7 {border: 1px solid rgba(18, 18, 126, 0.63);
+        .child7 {
             flex-direction: row;
             justify-content: flex-start;
             font-size: 23px;
@@ -90,11 +77,10 @@
             padding: 0px 0px 0px 20px;}
     
         .orphan {
-            border: 1px solid violet;
             flex-grow: 1;  
             background-color: rgba(224, 224, 226, 0.63);
             margin: 0px 40px 0px 40px;
-            color: rgb(48, 47, 46);
+            color: #302F2E;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 23px;
             text-align: justify;
@@ -102,70 +88,60 @@
             
         }
         .text1 {
-            border: 1px solid rgba(18, 18, 126, 0.63);
            max-width: 250px;
            margin: 0px 0px 15px 20px;
            padding: 0px 0px 0px 40px;
-           color: rgb(255, 255, 255);
+           color: #FFFFFF;
         }
         .img1 {
             max-width: 50px;
-            border: 1px solid rgba(224, 11, 11, 0.6);
-            float:left; 
+            float: left; 
             padding: 0px 0px 0px 20px;
 
         }
 
         .text2 {
-            border: 1px solid rgba(18, 18, 126, 0.63);
            max-width: 500px;
            margin: 0px 0px 15px 20px;
            padding: 0px 0px 0px 40px;
-           color: rgb(255, 255, 255);
+           color: #FFFFFF;
         }
         .img2 {
             max-width: 50px;
-            border: 1px solid rgba(224, 11, 11, 0.6);
             float:left; 
             padding: 0px 0px 0px 20px;
 
         }
 
         .text3 {
-            border: 1px solid rgba(18, 18, 126, 0.63);
            max-width: 250px;
            margin: 0px 0px 15px 20px;
            padding: 0px 0px 0px 40px;
-           color: rgb(255, 255, 255);
+           color: #FFFFFF;
         }
         .img3 {
             max-width: 50px;
-            border: 1px solid rgba(224, 11, 11, 0.6);
-            float:left; 
+            float: left; 
             padding: 0px 0px 0px 20px;
 
         }
         .father  {
-    border: 1px solid #8735;
-    margin: 0px 20px 0px 20px;
     display: flex;
     flex-direction: row;
     height: 510px;
     background-color: rgba(224, 224, 226, 0.63);
     }
     .skills {
-        border: 1px solid violet;
         min-width: 500px;  
-        background-color: rgb(218, 153, 32);
+        background-color: #DA9920;
             }
    
 
     .edu {
-        border: 1px solid violet;
         background-color: rgba(224, 224, 226, 0.63);
         flex-grow: 1;
         margin: 0px 40px 0px 40px;
-        color: rgb(48, 47, 46);
+        color: #302F2E;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 23px;
         text-align: justify;
@@ -175,7 +151,7 @@
     font-weight: 400;
     font-variant: small-caps;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(218, 153, 32);
+    color: #DA9920;
     }
     .child8 {
         align-content: flex-start;
@@ -185,17 +161,15 @@
         font-variant: small-caps;
         font-family: 'Times New Roman', Times, serif;
         padding: 0px 0px 0px 40px;
-        color: rgb(48, 47, 46);
-        border: 1px solid red;
+        color: #302F2E;
     }
     .stepson {
-    border: 1px solid rgba(18, 18, 126, 0.63);
     flex-direction: row;
     justify-content: flex-start;
     font-size: 23px;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     padding: 0px 0px 0px 20px;
     }
 
@@ -204,42 +178,42 @@
         font-weight: 400;
         font-variant: small-caps;
         font-family: 'Times New Roman', Times, serif;
-        color: rgb(218, 153, 32);
+        color: #DA9920;
         }
 
-        .lang {align-content: flex-start;
+        .lang {
+            align-content: flex-start;
             margin: 40px 0px 20px 0px;
             font-size: 42px;
             font-weight: 400;
             font-variant: small-caps;
             font-family: 'Times New Roman', Times, serif;
             padding: 0px 0px 0px 20px;
-            color: rgb(48, 47, 46);}
+            color: #302F2E;
+        }
 
-        .step2 {border: 1px solid rgba(18, 18, 126, 0.63);
+        .step2 {
             flex-direction: row;
             justify-content: flex-start;
             font-size: 23px;
             font-weight: 300;
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(255, 255, 255);
+            color: #FFFFFF;
             padding: 0px 0px 0px 20px;}
+
     .auntmay {
-        border: 1px solid #8735;
-        margin: 0px 20px 0px 20px;
         display: flex;
         flex-direction: row;
         background-color: rgba(224, 224, 226, 0.63);
     }
-    .peter {border: 1px solid violet;
+    .peter {
         max-width: 500px; 
         min-width: 500px; 
-        background-color: rgb(218, 153, 32);}
+        background-color: #DA9920;}
     .tony {
-        border: 1px solid violet;
         background-color: rgba(224, 224, 226, 0.63);
         margin: 40px 40px 0px 40px;
-        color: rgb(48, 47, 46);
+        color: #302F2E;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 23px;
         text-align: justify;
@@ -249,7 +223,7 @@
         font-weight: 400;
         font-variant: small-caps;
         font-family: 'Times New Roman', Times, serif;
-        color: rgb(218, 153, 32);
+        color: #DA9920;
     }
     .spider {align-content: flex-start;
         margin: 40px 0px 20px 0px;
@@ -258,26 +232,25 @@
         font-variant: small-caps;
         font-family: 'Times New Roman', Times, serif;
         padding: 0px 0px 0px 40px;
-        color: rgb(48, 47, 46);
-        border: 1px solid red;}
+        color: #302F2E;
+    }
 
         .code {
-            border: 1px solid rgba(18, 18, 126, 0.63);
             flex-direction: row;
             justify-content: flex-start;
             font-size: 23px;
             font-weight: 300;
             font-family: Arial, Helvetica, sans-serif;
-            color: rgb(255, 255, 255);
+            color: #FFFFFF;
             padding: 0px 40px 0px 40px;
         }
+
     .itself {
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
-    color:rgb(48, 47, 46)
-    
-        }
+    background-color: #FFFFFF;
+    color:#302F2E;
+    }
 
 .main {
     margin: 50px 100px 50px 100px;
@@ -286,25 +259,22 @@
 }
 
 .footer {
-    border: 1px solid #8735;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 0px 20px 0px;
     display: flex;
     flex-direction: row;
     background-color: rgba(224, 224, 226, 0.63);
 }
 
 .left {
-    border: 1px solid violet;
     max-width: 500px; 
     min-width: 500px; 
-    background-color: rgb(218, 153, 32);
+    background-color: #DA9920;
 
 }
 .right {
-    border: 1px solid violet;
     background-color: rgba(224, 224, 226, 0.63);
     margin: 0px 40px 0px 40px;
-    color: rgb(48, 47, 46);
+    color: #302F2E;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     text-align: justify;
@@ -326,11 +296,10 @@
 .bottom1 {
     
     padding: 0px 40px 0px 40px;
-    border: 1px solid red;
     justify-content: space-between;
     display: flex;
     align-items: flex-end;
-    color: rgb(48, 47, 46);
+    color: #302F2E;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -338,7 +307,6 @@
 .bottom2 {
     justify-content: space-between;
     align-items: flex-end;
-    border: 1px solid red;
     align-self: flex-end;
 }
 
